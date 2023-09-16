@@ -1,6 +1,8 @@
 import apiProjects from './data/apiprojects.js';
+import fullStackProjects from './data/fullstackproject.js';
 
-const jxaDOM = document.querySelector('.projects-center.jxa');
+const jxaContainer = document.querySelector('.projects-center.jxa');
+const fullStackContainer = document.querySelector('.projects-center.fullstack');
 
 const displayProjects = (data) => {
     const projectList = data.map((project) => {
@@ -19,11 +21,10 @@ const displayProjects = (data) => {
                     <h5 class="project-name">${title}</h5>
                     <div class="icons">
                         <a class="project-link" href="${gitLink}" target="_blank"><i class="fa-brands fa-github"></i></a>
-                        ${
-                            (url ==='#') ?
-                            `<a class="project-link url disabled" href="${url}"><i class="fa-solid fa-link"></i></a>`:
-                            `<a class="project-link url" href="${url}" target="_blank"><i class="fa-solid fa-link"></i></a>`
-                        }
+                        ${(url === '#') ?
+                `<a class="project-link url disabled" href="${url}"><i class="fa-solid fa-link"></i></a>` :
+                `<a class="project-link url" href="${url}" target="_blank"><i class="fa-solid fa-link"></i></a>`
+            }
                         
                     </div>
                 </footer>
@@ -34,9 +35,15 @@ const displayProjects = (data) => {
     return projectList;
 }
 
-const start = ()=>{
+const start = () => {
     let projectList = displayProjects(apiProjects);
-    jxaDOM.innerHTML = `
+    jxaContainer.innerHTML = `
+        <div class="projects-container">
+            ${projectList}
+        </div>`;
+
+    projectList = displayProjects(fullStackProjects);
+    fullStackContainer.innerHTML = `
         <div class="projects-container">
             ${projectList}
         </div>`;
