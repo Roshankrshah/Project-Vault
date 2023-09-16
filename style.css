@@ -73,11 +73,15 @@ body {
     object-fit: cover;
 }
 
-a{
+a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
+.disabled {
+    pointer-events: none;
+    color: gray;
+}
 
 /* buttons */
 
@@ -234,7 +238,7 @@ Projects
     justify-content: space-between;
 }
 
-.project-footer h5{
+.project-footer h5 {
     font-size: 30px;
     margin: 15px 10px;
 }
