@@ -66,11 +66,18 @@ body {
 
 }
 
+
 .img {
     width: 100%;
     display: block;
     object-fit: cover;
 }
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
 
 /* buttons */
 
@@ -208,38 +215,48 @@ Projects
 .project {
     border-radius: 5px;
     border: 1px solid blue;
-    box-shadow: 0px 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
     transition: all 0.2s ease;
 }
 
-.project:hover{
+.project:hover {
     cursor: pointer;
     transform: scale(1.05);
 }
 
 
-footer {
+.img-container {
+    background-color: #2e2e84;
+    padding: 20px;
+}
+
+.project-footer {
     display: flex;
     justify-content: space-between;
 }
 
-.icons {
-    letter-spacing: 5px;
+.project-footer h5{
+    font-size: 30px;
+    margin: 15px 10px;
 }
 
-.product-price {
-    margin-bottom: 0;
-    color: var(--grey-700);
-    font-size: 2rem;
-    letter-spacing: var(--letterSpacing);
+.icons {
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.project-link {
+    font-size: 30px;
+    margin: 15px 10px;
 }
 
 .show-more {
     text-align: center;
     margin-top: 20px;
-  }
-  
-  .show-more button {
+}
+
+.show-more button {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     color: #fff;
@@ -249,26 +266,26 @@ footer {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color .3s;
-  }
-  
-  .show-more button:hover {
-    background-color: #45a049;
-  }
+}
 
-  footer.main-footer {
-    background-color: #000016;;
+.show-more button:hover {
+    background-color: #45a049;
+}
+
+footer.main-footer {
+    background-color: #000016;
     color: #fff;
     padding: 20px;
-  }
-  
-  .footer-content p {
+}
+
+.footer-content p {
     margin: 0;
     text-align: center;
-  }
-  
-  .footer-content a {
+}
+
+.footer-content a {
     color: #fff;
-  }
+}
 
 @media screen and (min-width: 768px) {
     .projects-container {
