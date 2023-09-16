@@ -1,8 +1,8 @@
-import data from './data.js';
+import apiProjects from './data/apiprojects.js';
 
 const projectDOM = document.querySelector('.projects-center.fsa');
 
-const displayProducts = ()=>{
+const displayProducts = (data)=>{
     const projectList = data.map((project)=>{
         const title = project.title;
         const imgPath = project.imgPath;
@@ -31,4 +31,4 @@ const displayProducts = ()=>{
         </div>`
 }
 
-displayProducts();
+displayProducts(apiProjects);
