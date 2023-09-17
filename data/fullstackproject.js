@@ -49,25 +49,25 @@ const fullStackProjects = [
         color: 'blue'
     },
     {
-        title: "",
-        imgPath: '/images/fullstack/.jpg',
-        gitLink: '',
+        title: "Blog Site",
+        imgPath: '/images/fullstack/blog.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Blog-Website',
         url: '#',
-        color: ''
+        color: 'black'
     },
     {
-        title: "",
-        imgPath: '/images/fullstack/.jpg',
-        gitLink: '',
+        title: "Expense Tracker",
+        imgPath: '/images/fullstack/expense.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Expense-Tracker',
         url: '#',
-        color: ''
+        color: '#9c88ff'
     },
     {
-        title: "",
-        imgPath: '/images/fullstack/.jpg',
-        gitLink: '',
+        title: "News Site",
+        imgPath: '/images/fullstack/news.jpg',
+        gitLink: 'https://github.com/Roshankrshah/News-APP',
         url: '#',
-        color: ''
+        color: '#0d6efd'
     },
     {
         title: "",

@@ -90,6 +90,13 @@ const apiProjects =[
         url: '#',
         color: '#F0DB4F'
     },
+    {
+        title: "Axios CRUD API",
+        imgPath: '/images/api/axios.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Axios_CRUD',
+        url: '#',
+        color: '#ffc107'
+    },
 
 ];
 
