@@ -1,10 +1,12 @@
 import apiProjects from './data/apiprojects.js';
 import fullStackProjects from './data/fullstackproject.js';
 import backendProjects from './data/backend.js';
+import domProjects from './data/domProject.js';
 
 const jxaContainer = document.querySelector('.projects-center.jxa');
 const fullStackContainer = document.querySelector('.projects-center.fullstack');
 const backendContainer = document.querySelector('.projects-center.backend');
+const jsdContainer = document.querySelector('.projects-center.jsd');
 
 const displayProjects = (data) => {
     const projectList = data.map((project) => {
@@ -52,9 +54,15 @@ const start = () => {
 
     projectList = displayProjects(backendProjects);
     backendContainer.innerHTML = `
-            <div class="projects-container">
-                ${projectList}
-            </div>`;
+        <div class="projects-container">
+            ${projectList}
+        </div>`;
+
+    projectList = displayProjects(domProjects);
+    jsdContainer.innerHTML = `
+        <div class="projects-container">
+            ${projectList}
+        </div>`;
 }
 
 start();
