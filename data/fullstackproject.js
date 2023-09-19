@@ -69,13 +69,13 @@ const fullStackProjects = [
         url: '#',
         color: '#0d6efd'
     },
-    {
+    /*{
         title: "",
         imgPath: '/images/fullstack/.jpg',
         gitLink: '',
         url: '#',
         color: ''
-    },
+    },*/
 ];
 
 export default fullStackProjects;

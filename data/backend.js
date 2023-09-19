@@ -22,14 +22,21 @@ const backendProjects = [
     },
     {
         title: "Social Media API",
-        imgPath: '',
+        imgPath: '/images/backend/default.jpg',
         gitLink: 'https://github.com/Roshankrshah/Social-Media-API',
         url: '#',
         color: ''
     },
     {
+        title: "Discord Bot",
+        imgPath: '/images/backend/default.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Discord-Bot',
+        url: '#',
+        color: ''
+    },
+    {
         title: "Cloudinary File Upload",
-        imgPath: '',
+        imgPath: '/images/backend/default.jpg',
         gitLink: 'https://github.com/Roshankrshah/File_Uploads',
         url: '#',
         color: ''
@@ -57,7 +64,7 @@ const backendProjects = [
     },
     {
         title: "Node Mailer",
-        imgPath: '',
+        imgPath: '/images/backend/default.jpg',
         gitLink: 'https://github.com/Roshankrshah/Node-Mailer',
         url: '#',
         color: ''
@@ -71,38 +78,38 @@ const backendProjects = [
     },
     {
         title: "Contact Management System API",
-        imgPath: '',
+        imgPath: '/images/backend/default.jpg',
         gitLink: 'https://github.com/Roshankrshah/Contact_Management_CRUD_API',
         url: '#',
         color: ''
     },
     {
         title: "Job Application Manager API",
-        imgPath: '',
+        imgPath: '/images/backend/default.jpg',
         gitLink: 'https://github.com/Roshankrshah/Jobs_API',
         url: '#',
         color: ''
     },
     {
         title: "Task Manager",
-        imgPath: '',
+        imgPath: '/images/backend/task.jpg',
         gitLink: 'https://github.com/Roshankrshah/Task_Manager_App',
         url: '#',
-        color: ''
+        color: '#645CFF'
     },
     {
         title: "Store API",
-        imgPath: '',
+        imgPath: '/images/backend/default.jpg',
         gitLink: 'https://github.com/Roshankrshah/Store-API',
         url: '#',
         color: ''
     },
     {
-        title: "",
-        imgPath: '/images/backend/.jpg',
-        gitLink: '',
+        title: "Real Time MultiPlayer Snake Game",
+        imgPath: '/images/backend/snake.jpg',
+        gitLink: 'https://github.com/Roshankrshah/MultiPlayer-Snake-Game',
         url: '#',
-        color: ''
+        color: 'orange'
     },
 ];
 
