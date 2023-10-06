@@ -7,6 +7,27 @@ const domProjects =[
         color: 'pink'
     },
     {
+        title: "Web Components in Vanilla JS",
+        imgPath: '/images/dom/components.jpg',
+        gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Web%20Component',
+        url: 'https://651ff69a66b2f722319f5ad2--jolly-sprite-a1a758.netlify.app/',
+        color: '#A52A2A'
+    },
+    {
+        title: "Morse Code Translator",
+        imgPath: '/images/dom/morse.jpg',
+        gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Morse%20Code%20Translator',
+        url: 'https://651ff838c7b98924691aa162--frolicking-lily-442221.netlify.app/',
+        color: '#ef4c10'
+    },
+    {
+        title: "SPA Routing",
+        imgPath: '/images/dom/spa.jpg',
+        gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/SPA',
+        url: '#',
+        color: 'yellowgreen'
+    },
+    {
         title: "Color Flipper",
         imgPath: '/images/dom/colorflipper.jpg',
         gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/color%20flipper',
