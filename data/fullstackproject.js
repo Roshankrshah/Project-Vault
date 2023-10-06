@@ -69,6 +69,13 @@ const fullStackProjects = [
         url: '#',
         color: '#0d6efd'
     },
+    {
+        title: "Employee Management Site",
+        imgPath: '/images/fullstack/employee.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Employee-Management-Site',
+        url: '#',
+        color: 'coral'
+    },
     /*{
         title: "",
         imgPath: '/images/fullstack/.jpg',
