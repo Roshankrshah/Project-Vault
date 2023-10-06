@@ -7,6 +7,27 @@ const backendProjects = [
         color: '#007bff'
     },
     {
+        title: "TinyPng Clone",
+        imgPath: '/images/backend/tinypng.jpg',
+        gitLink: 'https://github.com/Roshankrshah/TinyPNG-Clone',
+        url: '#',
+        color: 'black'
+    },
+    {
+        title: "Real Time Logger Analytics Dashboard",
+        imgPath: '/images/backend/logger.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Real-Time-Logger-Analytics-Dashboard',
+        url: '#',
+        color: 'yellowgreen'
+    },
+    {
+        title: "Code Gig",
+        imgPath: '/images/backend/codegigs.jpg',
+        gitLink: 'https://github.com/Roshankrshah/CodeGig',
+        url: '#',
+        color: '#568c9b'
+    },
+    {
         title: "OAuth Passport Authorization",
         imgPath: '/images/backend/oauth.jpg',
         gitLink: 'https://github.com/Roshankrshah/Oauth_Passport',
@@ -110,6 +131,13 @@ const backendProjects = [
         gitLink: 'https://github.com/Roshankrshah/MultiPlayer-Snake-Game',
         url: '#',
         color: 'orange'
+    },
+    {
+        title: "CRUD API with MySql",
+        imgPath: '/images/backend/crud.jpg',
+        gitLink: 'https://github.com/Roshankrshah/CRUD-API-MySql',
+        url: '#',
+        color: 'coral'
     },
 ];
 
