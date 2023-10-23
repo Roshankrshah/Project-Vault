@@ -1,5 +1,12 @@
 const fullStackProjects = [
     {
+        title: "Real Time Auction Site",
+        imgPath: '/images/fullstack/auction.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Real-Time-Auction-Site',
+        url: '#',
+        color: '#ef1176fc'
+    },
+    {
         title: "ChatRoom",
         imgPath: '/images/fullstack/chatroom.jpg',
         gitLink: 'https://github.com/Roshankrshah/ChatRoom-App',

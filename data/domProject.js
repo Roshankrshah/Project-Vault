@@ -28,6 +28,13 @@ const domProjects =[
         color: 'yellowgreen'
     },
     {
+        title: "Kanban Board",
+        imgPath: '/images/dom/kanban.jpg',
+        gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Kanban%20Board',
+        url: '#',
+        color: '#009578'
+    },
+    {
         title: "Color Flipper",
         imgPath: '/images/dom/colorflipper.jpg',
         gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/color%20flipper',

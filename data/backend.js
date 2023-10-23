@@ -1,5 +1,12 @@
 const backendProjects = [
     {
+        title: "Proxy Server",
+        imgPath: '/images/backend/proxy.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Proxy-Server',
+        url: '#',
+        color: 'steelblue'
+    },
+    {
         title: "Validation Registration Form",
         imgPath: '/images/backend/registerform.jpg',
         gitLink: 'https://github.com/Roshankrshah/Express-Validation-Form',
@@ -40,6 +47,13 @@ const backendProjects = [
         gitLink: 'https://github.com/Roshankrshah/Stripe-Payment',
         url: '#',
         color: '#5469d4'
+    },
+    {
+        title: "Caching With Redis",
+        imgPath: '/images/backend/default.jpg',
+        gitLink: 'https://github.com/Roshankrshah/Caching-with-Redis',
+        url: '#',
+        color: '#ef1176fc'
     },
     {
         title: "Social Media API",
