@@ -7,6 +7,13 @@ const domProjects =[
         color: 'pink'
     },
     {
+        title: "Image Editor",
+        imgPath: '/images/dom/editor.jpg',
+        gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Image%20Editor',
+        url: '#',
+        color: '#5372F0'
+    },
+    {
         title: "Web Components in Vanilla JS",
         imgPath: '/images/dom/components.jpg',
         gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Web%20Component',
@@ -19,6 +26,13 @@ const domProjects =[
         gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Morse%20Code%20Translator',
         url: 'https://651ff838c7b98924691aa162--frolicking-lily-442221.netlify.app/',
         color: '#ef4c10'
+    },
+    {
+        title: "PDF Viewer",
+        imgPath: '/images/dom/pdf_viewer.jpg',
+        gitLink: 'https://github.com/Roshankrshah/JavaScript-DOM/tree/main/Pdf%20Viewer',
+        url: '#',
+        color: '#ffc107'
     },
     {
         title: "SPA Routing",
