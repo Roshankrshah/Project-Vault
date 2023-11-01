@@ -11,9 +11,13 @@ const fsdBtn = document.getElementById('fsd');
 const beBtn = document.getElementById('be');
 const jsxBtn = document.getElementById('jsx');
 const jsdBtn = document.getElementById('jsd');
+const toggleBtn = document.getElementById('slider');
+
+toggleBtn.addEventListener('click',()=>{
+    document.documentElement.classList.toggle('dark-theme');
+})
 
 const displayProjects = (data) => {
-    console.log(data);
     const projectList = data.map((project) => {
         const title = project.title;
         const imgPath = project.imgPath;
