@@ -3,7 +3,7 @@ const fullStackProjects = [
         title: "Real Time Auction Site",
         imgPath: '/images/fullstack/auction.jpg',
         gitLink: 'https://github.com/Roshankrshah/Real-Time-Auction-Site',
-        url: '#',
+        url: 'https://auction-sphere07.netlify.app',
         color: '#ef1176fc'
     },
     {
@@ -66,7 +66,7 @@ const fullStackProjects = [
         title: "Expense Tracker",
         imgPath: '/images/fullstack/expense.jpg',
         gitLink: 'https://github.com/Roshankrshah/Expense-Tracker',
-        url: '#',
+        url: 'https://expense-tracker-bb3t.onrender.com',
         color: '#9c88ff'
     },
     {

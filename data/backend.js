@@ -94,7 +94,7 @@ const backendProjects = [
         title: "Url Shotener",
         imgPath: '/images/backend/url.jpg',
         gitLink: 'https://github.com/Roshankrshah/URL-Shortener',
-        url: '#',
+        url: 'https://url-shortener-fg26.onrender.com',
         color: '#3f51b5'
     },
     {
