@@ -84,7 +84,7 @@ const backendProjects = [
         color: ''
     },
     {
-        title: "Login System",
+        title: "Session Based Login System",
         imgPath: '/images/backend/login.jpg',
         gitLink: 'https://github.com/Roshankrshah/Login_System',
         url: '#',
@@ -98,7 +98,7 @@ const backendProjects = [
         color: 'black'
     },
     {
-        title: "Url Shotener",
+        title: "Url Shortener",
         imgPath: '/images/backend/url.jpg',
         gitLink: 'https://github.com/Roshankrshah/URL-Shortener',
         url: 'https://url-shortener-fg26.onrender.com',
