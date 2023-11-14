@@ -269,3 +269,33 @@ footer.main-footer {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/*Popover Effect*/
+
+.popover-container {
+    position: relative;
+    display: inline-block;
+}
+
+.popover-container::after {
+    content: attr(data-popover);
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 15px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 150%;
+    margin-left: -90px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.popover-container:hover::after {
+    visibility: visible;
+    opacity: 1;
+}

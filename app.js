@@ -33,10 +33,10 @@ const displayProjects = (data) => {
                 <footer class="project-footer">
                     <h5 class="project-name">${title}</h5>
                     <div class="icons">
-                        <a class="project-link" href="${gitLink}" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a class="project-link popover-container" href="${gitLink}" target="_blank" data-popover="View Code on Github"><i class="fa-brands fa-github"></i></a>
                         ${(url === '#') ?
                 `<a class="project-link url disabled" href="${url}"><i class="fa-solid fa-link"></i></a>` :
-                `<a class="project-link url" href="${url}" target="_blank"><i class="fa-solid fa-link"></i></a>`
+                `<a class="project-link url popover-container" href="${url}" target="_blank" data-popover="Visit site"><i class="fa-solid fa-link"></i></a>`
             }
                         
                     </div>
