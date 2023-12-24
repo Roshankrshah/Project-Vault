@@ -199,8 +199,9 @@ Projects
     justify-content: space-between;
 }
 
-.project-footer h5 {
+.project-footer p {
     font-size: 30px;
+    font-weight: 600;
     margin: 15px 10px;
 }
 
@@ -256,6 +257,14 @@ footer.main-footer {
 .disabled {
     cursor: not-allowed;
     color: gray;
+}
+
+@media screen and (min-width: 500px) {
+    .project-footer p {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 15px 10px;
+    }
 }
 
 @media screen and (min-width: 768px) {

@@ -31,7 +31,7 @@ const displayProjects = (data) => {
                     <img src=${imgPath} alt="" class="project-img img">
                 </div>
                 <footer class="project-footer">
-                    <h5 class="project-name">${title}</h5>
+                    <p class="project-name">${title}</p>
                     <div class="icons">
                         <a class="project-link popover-container" href="${gitLink}" target="_blank" data-popover="View Code on Github"><i class="fa-brands fa-github"></i></a>
                         ${(url === '#') ?
